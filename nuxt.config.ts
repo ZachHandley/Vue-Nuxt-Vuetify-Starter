@@ -22,6 +22,9 @@ export default defineNuxtConfig({
     fallback: 'dark',
     classPrefix: '',
   },
+  tailwindcss: {
+    cssPath: '~/assets/css/main.css',
+  },
   googleFonts: {
     preload: true,
     families: {
